@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <!--<link rel="stylesheet" type="text/css" href=""> -->
+    <link rel="stylesheet" href="node_modules/@splidejs/splide/dist/css/splide.min.css">
   </head>
 <body>
  <!--<p>
@@ -18,16 +19,30 @@
   </a>
  </p> -->
 
- <div class="main">
+ <!-- <div class="main">
    <div class="slides">
         <img src="img/penacabro.png" alt="">
         <img src="img/cueva.png" alt="">
         <img src="img/penalisa.png" alt="">
       </div>
- </div>
+ </div> -->
 
+<div class="splide">
+  <div class="splide__track">
+    <ul class="splide__list">
+      <li class="splide__slide"><img src="img/penalisa.png"></li>
+      <li class="splide__slide"><img src="img/cueva.png"></li>
+      <li class="splide__slide"><img src="img/penacabro.png"></li>
+    </ul>
+  </div>
+</div>
+
+ <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
  <script src="js/jquery.slides.js"></script>
+ <script>
+  new Splide( '.splide' ).mount();
+</script>
  <h1>Chitareros caminandes</h1>
 
 
@@ -37,9 +52,7 @@
  <!-- <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script> -->
-
-  <script>
-
+<!-- <script>
   $(function(){
   $(".slides").slidesjs({
     play: {
@@ -61,7 +74,6 @@
     }
   });
 });
-
-  </script>
+</script> -->
 </body>
 </html>

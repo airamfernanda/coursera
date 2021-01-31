@@ -115,10 +115,10 @@
       });
       if (this.options.navigation.active) {
         prevButton = $("<a>", {
-          "class": "slidesjs-previous slidesjs-navigation icon-previous2",
+          "class": "slidesjs-previous slidesjs-navigation",
           href: "#",
-          title: "",
-          text: ""
+          title: "previous",
+          text: "previous"
         }).appendTo($element);
         nextButton = $("<a>", {
           "class": "slidesjs-next slidesjs-navigation",
