@@ -5,8 +5,8 @@
 
 h1{
 	float: center;
-	margin-left: 25%;
-	font-size: 500%;
+	margin-left: 0%;
+	size: 100px;
 }
  
 body {
@@ -24,3 +24,16 @@ img{
 	margin-left: 2.5%;
 }
 
+p{
+	margin-left: 30%;
+}
+
+
+var options = {
+	perPage: 2,
+	breakpoints: {
+		990px: {
+			perPage: 1,
+		},
+	}
+};
