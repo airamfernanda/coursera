@@ -19,15 +19,20 @@ body {
 
 div {
 	float: center;
+
 }
 img{
 	margin-left: 2.5%;
 }
 
 p{
+	float: center;
 	margin-left: 30%;
 }
 
+#lista{
+	margin-left: 30%
+}
 
 var options = {
 	perPage: 2,
