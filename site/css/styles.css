@@ -22,23 +22,31 @@ div {
 
 }
 img{
-	margin-left: 1%;
+	margin-left: 2%;
 }
 
 p{
 	float: center;
-	margin-left: 30%;
+	margin-left: 3%;
+	text-align: center;
 }
 
 #lista{
 	margin-left: 30%
 }
 
-var options = {
-	perPage: 2,
-	breakpoints: {
-		990px: {
-			perPage: 1,
-		},
-	}
-};
+#logo-img {
+  background: url('https://raw.githubusercontent.com/airamfernanda/coursera/gh-pages/site/img/caminandesf.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+.row {
+  width: 100%;
+}
+
+#header-nav { 
+ background-color: #D8D1D9 }
+
+
+
