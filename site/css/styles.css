@@ -13,8 +13,9 @@ body {
 	background:#f2f2f2;
 }
  
-.splide_slide{
+.splide__slide{
 	float: center;
+	margin-bottom: 100px;
 	}
 
 div {
@@ -22,7 +23,12 @@ div {
 
 }
 li img{
-	margin-left: 22%;
+	margin-left: 20%;
+	margin-bottom: 10%;
+}
+
+.splide__progress__bar {
+	margin: 1px;
 }
 
 p{
@@ -35,12 +41,6 @@ p{
 	margin-left: 30%
 }
 
-#logo-img {
-  background: url('https://raw.githubusercontent.com/airamfernanda/coursera/gh-pages/site/img/caminandesf.png') no-repeat;
-  width: 150px;
-  height: 150px;
-  margin: 10px 15px 10px 0;
-}
 .row {
   width: 100%;
 }
@@ -48,9 +48,7 @@ p{
 #header-nav { 
  background-color: #D8D1D9 }
 
-/*.splide__progress {
-	margin-top: 2px;
-}*/
+
 
 
 
