@@ -25,11 +25,10 @@ div {
 li img{
 	margin-left: 20%;
 	margin-bottom: 10%;
+	padding-bottom: 2px;
 }
 
-.splide__progress__bar {
-	margin: 1px;
-}
+
 
 p{
 	float: center;
