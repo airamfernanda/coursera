@@ -15,7 +15,6 @@ body {
  
 .splide__slide{
 	float: center;
-	margin-bottom: 100px;
 	}
 
 div {
@@ -24,8 +23,7 @@ div {
 }
 li img{
 	margin-left: 20%;
-	margin-bottom: 10%;
-	padding-bottom: 2px;
+	margin-bottom: 7%;
 }
 
 
@@ -45,8 +43,15 @@ p{
 }
 
 #header-nav { 
- background-color: #D8D1D9 }
+ background-color: #D6DBDF }
 
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+ul {
+	font-size: 1.8em;
+}
 
 
 

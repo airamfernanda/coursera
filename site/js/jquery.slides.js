@@ -38,8 +38,17 @@
         loaded: function() {},
         start: function() {},
         complete: function() {}
-      }
-    };
+      },
+      options : {
+        perPage: 2,
+        breakpoints: {
+          640 : {
+            perPage: 1,
+          }
+        }
+      };
+    
+
     Plugin = (function() {
 
       function Plugin(element, options) {
@@ -596,3 +605,5 @@
   })(jQuery, window, document);
 
 }).call(this);
+
+
