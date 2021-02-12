@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alto</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!--<link rel="stylesheet" type="text/css" href=""> -->
+    <link rel="stylesheet" href="node_modules/@splidejs/splide/dist/css/splide.min.css">
+  </head>
+<style>
+  /*body {
+    background-color: white;
+  }*/
+  .splide {
+    padding-top: 20px;
+  }
+
+  li img {
+    width: 85%;
+  }
+
+  #mapa{
+    background-color: white;
+    border:15px; 
+    margin: 10px;
+    padding: 10px; 
+    padding-left: 10px;
+    float: right; 
+    width:50%; 
+    height:500px;
+  }
+</style>
+<body>
+
+<!--<div class="col-lg-12"> -->
+ 
+<header>
+  <nav id="header-nav" class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="alto.html" class="pull-left">
+          <div><img id="altosym" src="img/alto/altosy.png"></div>
+        </a>
+
+        <div class="navbar-brand">
+          <h1>Alto de San Jose de Miranda</h1>
+        </div>
+
+      </div>  
+    </div>
+  </nav> 
+</header>
+
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+
+<!--  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d53451.75073916594!2d-72.75363025100802!3d6.683367081250409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1613075919450!5m2!1ses!2sco" width="80%" height="45%" frameborder="10px" style="border:10px; padding: 10px; margin-left: 10%;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
+
+<iframe id="mapa" src="https://www.google.com/maps/d/u/0/embed?mid=1sn5KqOAAYpsT1utMxTaDdWJLgkMpLLwM" allowfullscreen="" aria-hidden="false" tabindex="0" frameborder="10px"></iframe>
+
+<section>
+  <p>
+    A pesar de estar localizado en San José de Miranda, este lugar es conocido por los locales como el Alto de Málga. Al llegar de Bucaramanga por la vía de Curos es el primer lugar desde donde se ve nuestro hermoso municipio. Famoso por ser un destino obligado para los ciclistas, ofrece una elevación de casi 900m desde las calles del pueblo. Esta ruta de aproximadamente 7.16km desde la Escuela Normal es perfecta para principiantes ya que la mayoría del recorrido es sobre una carretera de una inclinación media de 10%. En los tramos finales (mucho más exigentes) también se encuentran las mayores bellezas, como el bosque de robles justo antes de llegar a la meta.
+  </p>
+</section>
+
+<section>
+ <h2>
+ ¿Qué debes llevar? 
+</h2>
+ <p>
+  <ul id="que-llevar">
+    <li>Bloqueador solar ya que la mayoría del recorrido es destapado</li>
+    <li>Suficiente agua para una caminata de 2-3 horas.</li>
+    <li>Una merienda ligera. En el Alto hay una pequeña tienda donde venden productos de paquete</li>
+  </ul>
+ </p>
+</section>
+
+ <div class="splide" data-splide='{"autoplay":"true", "type":"loop", "interval":"3000", "perPage":"3", "perMove":"1"}'>
+  <div class="splide__track">
+    <ul class="splide__list">
+      <li class="splide__slide"><img src="img/alto/alto1.png"></li>
+      <li class="splide__slide"><img src="img/alto/alto2.png"></li>
+      <li class="splide__slide"><img src="img/alto/alto3.png"></li>
+      <li class="splide__slide"><img src="img/alto/alto4.png"></li>
+      </ul>
+  </div>
+ </div>
+
+<!--</div>-->
+  <div class="splide__progress">
+    <div class="splide__progress__bar"> 
+    </div>
+  </div>
+</div>
+
+ <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+ <!--<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+ <script src="js/jquery.slides.js"></script>-->
+ <script>
+  new Splide( '.splide' ).mount();
+</script>
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+
+<section>
+  <h2>
+    ¿Ya hiciste esta ruta?
+  </h2>
+  <p>
+    Cuéntanos tu experiencia.
+  </p>
+</section>
+</body>
+</html>
