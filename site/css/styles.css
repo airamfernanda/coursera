@@ -51,14 +51,13 @@ p{
 #nav-list {
 	margin-left: 18%;
 }
-ul {
-	font-size: 3vw;
-}
+
 
 #que-llevar {
 	font-size: 1.5em;
 	line-height: 1.5;
-	margin-left: 4%;
+	margin-left: 5%;
+	padding-left: 2px;
 }
 
 #logo {
@@ -166,6 +165,10 @@ section p {
 	#nav-list{
 		margin-left: 8%;
 	}
+
+	#que-llevar {
+		font-size: 1.3em;
+	}
 	#collapsable-nav a { /* Collapsed nav menu text */
     font-size: 3vw;
     margin-left: 26%;
@@ -193,10 +196,13 @@ section p {
 	height: 200px;
 		}
 
-  #logo{
-  	width: 50%;
-  	margin-left: 22%;
-  }
+	#que-llevar {
+		font-size: 1.0em;
+	 }
+    #logo{
+    	width: 50%;
+  	    margin-left: 22%;
+     } 
   .navbar-brand h1 {
 	 font-size: 4.3vw;
 	 position: relative;
@@ -205,10 +211,10 @@ section p {
 	 margin-top: -35%;
      }
 
-    section p {
-    	padding: 10px;
-	    text-align: justify;
-	    font-size: 1.0em;
+  section p {
+  	padding: 10px;
+    text-align: justify;
+    font-size: 1.0em;
       }
 
   
