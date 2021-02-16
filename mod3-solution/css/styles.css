@@ -22,6 +22,7 @@ body {
 #header-nav {
 	border-color: black;
 	border-width: 2px;
+	opacity: 1:;
 }
 
 h1 {
@@ -40,7 +41,10 @@ h1 {
 
 #nav-list { 
     background-color: black;
-    opacity: 100%;
+ }
+
+ #nav-list a {
+ 	border:2px solid white;
  }
 
 li {
@@ -49,10 +53,19 @@ li {
 
 }
 
+navbar-default .navbar-nav>li>a:focus, navbar-default .navbar-nav>li>a:hover {
+	background-color: white;
+	color: black;
+	opacity: 1.0;
+
+	}
+
 .navbar-default .navbar-nav>li>a {
 	font-size: 1.7em;
 	color: #cccc;
 	text-decoration: none;
+	background-color: rgba(1,1,1,0.2);
+	opacity: 1;
 }
 
 
